@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+	<meta src = "utf-8">
+	<title>Rock Paper Scissors Game</title>
+	<link rel = "stylesheet" href ="./gamestyle.css">
+</head>
+<body>
+	<h1>This is my Rock Paper Scissors Game</h1>
+	<p class ="instructions">First player to 5 wins. Make your first choice to start the game</p>
+	<div class = "choices">
+	
+		<button id ="rockButton">
+			<img id ="rockPhoto" src = "./Images/rock.png" width = "150px" height = "auto">
+		</button>
+		
+		<button id ="paperButton">
+			<img id ="paperPhoto" src = "./Images/paper.png" width = "150px" height = "auto"></img>
+		</button>
+		
+		<button id = "scissorsButton">
+			<img id ="scissorsPhoto" src = "./Images/scissors.png" width = "150px" height = "auto"></img>
+		</button>
+	</div>
+	
+	<div class ="playerchoices">
+		<p id ="userselection">Your Choice: </p>
+		<p id ="computerselection">Computer's Choice: </p>
+	</div>
+	
+	<p id ="text">Let's Play</p>
+	
+	<div class ="scorestats">
+		<p id ="myscore"></p>
+		<p id ="enemyscore"></p>
+	</div>
+	
+	<button id = "resetbutton">Start Over</button>
+	
+	<footer>
+  		<p>Copyright of David Justice<br>
+  		<a href="mailto:davidjustice28@gmail.com">davidjustice28@gmail.com</a></p>
+	</footer>
+
+
+	<script src ="javascript.js"></script>
+</body>
+</html>
